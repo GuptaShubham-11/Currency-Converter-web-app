@@ -5,26 +5,59 @@
     border: border-box;
 }
 
+body {
+    background-color: #c9ddff;
+    color:#333333;
+}
+
 h1 {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5rem;
+}
+
+p {
+    text-align: center;
+    margin: 2rem 2rem 0 2rem;
+    font-size: 1.5rem;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    align-content: center;
 }
 
 .container {
-    height: 25rem;
-    max-width: 35rem;
-    border: 2px solid black;
-    margin-top: 2rem;
+    margin: 0 auto;
+    height: 10vh;
+    width: 40vw;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
 }
 
-.box {
-    width: 10rem;
-    height: 5rem;
+.container input,select,button {
+    padding: 0.25rem;
+    font-size: 1rem;
+    outline: none;
+    border: 1px solid #333333;
+}
 
+.container input {
+    width: 5rem;
+    font-size: 1rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.container select {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.container button {
+    display: block;
+    margin: 2rem auto;
+    font-size: 1.25rem;
 }
