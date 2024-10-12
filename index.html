@@ -7,40 +7,40 @@
     <title>Currency Converter</title>
 </head>
 <body>
-    <header>
-        <h1>Currency Converter</h1>
-    </header>
+    
+    <div class="container">
+        <h1> Currency Converter </h1>
 
-    <main>
-        <p>1 Indian Rupees = 0.012 US Dollar</p>
-        <div class="container">
-
-            <img src="" alt="IND">
-            <select name="from">
+        <div class="box1">
+            <span>From</span>
+            <img src="" alt="from">
+            <select name="country" id="">
                 <option value="IND">IND</option>
-                <option value="USD">USD</option>
-                <option value="IND">IND</option>
-                <option value="USD">USD</option>
             </select>
-            <input type="text" placeholder="1">
-
-            <img src="" alt="exchange">
-
-            <img src="" alt="USD">
-            <select name="to">
-                <option value="IND">IND</option>
-                <option value="USD" selected>USD</option>
-                <option value="IND">IND</option>
-                <option value="USD">USD</option>
-            </select>
-            <input type="text" placeholder="0.012">
-
-            <button>Convert</button>
         </div>
 
-    </main>
+        <div class="input">
+            <input type="text" placeholder="0000">
+        </div>
+        <img src="/exchange img icon.png" alt="exchange" class="exchange-icon">
 
-    <footer></footer>
+        <div class="box2 box1">
+            <span>TO</span>
+            <img src="" alt="TO">
+            <select name="country" id="">
+                <option value="USD">USD</option>
+            </select>
+        </div>
+
+        <div class="output">
+            <p>0.012$</p>
+        </div>
+
+        <button>Convert</button>
+        
+    </div>
+
+    
     <script src="/script.js"></script>
 </body>
 </html>
